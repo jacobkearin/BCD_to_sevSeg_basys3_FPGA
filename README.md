@@ -21,4 +21,4 @@ Revision 0.01 - File Created
 Additional Comments:
 
 ## instructions:
-single source use: utilize .... .v file with .... .xdc constraints file
+single source use: utilize complete_basys_3_implementation.v file with .... .xdc constraints file
