@@ -105,7 +105,7 @@ output [6:0] SEGN;
 reg [3:0] BCD;
 
 dig_cont (CLK, AN);
-bcd_to_sevseg bcd3 (BCD, SEGN);
+bcd_to_sevseg (BCD, SEGN);
 
 always @(posedge CLK)
 begin
