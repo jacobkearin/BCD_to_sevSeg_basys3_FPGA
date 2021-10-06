@@ -28,12 +28,12 @@ Dependencies:  basys_3_constraints.xdc
 Revision: 0
 <br/>
 Revision 0.01 - File Created
-
+<br/>
 Additional Comments:
 
 ## instructions:
 constraints: basys_3_constraints.xdc
-
+<br/>
 single source use: utilize complete_basys_3_implementation.v
-
+<br/>
 utilize the remaining files for multiple source use.
