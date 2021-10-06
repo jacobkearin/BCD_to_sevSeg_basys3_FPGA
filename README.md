@@ -4,30 +4,29 @@
 Company: Dunwoody College of Technology
 <br/>
 Engineer: Jacob Kearin
-
-Written in Vivado 2019.1
-
+<br/>
 Professor: Matthew Beckler
-
-
+<br/>
+Written in Vivado 2019.1
+<br/>
 Create Date: 09/29/2021 12:03:54 PM
-
+<br/>
 Design Name: 
-
-Module Name: bcd
-
+<br/>
+Module Name:
+<br/>
 Project Name: 
-
-Target Devices: 
-
+<br/>
+Target Devices: Basys-3 board with Artix-7 FPGA
+<br/>
 Tool Versions: 
-
-Description: 
-
-Dependencies: 
- 
-Revision:
-
+<br/>
+Description: 4 digit, seven segment controller - Basys-3 FPGA development board
+<br/>
+Dependencies:  basys_3_constraints.xdc
+<br/>
+Revision: 0
+<br/>
 Revision 0.01 - File Created
 
 Additional Comments:
