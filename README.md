@@ -2,7 +2,7 @@
 ## verilog code for a 4 digit seven segment controller and the Basys 3 FPGA implementation using built-in switches for bcd inputs.
 
 Company: Dunwoody College of Technology
-
+<br/>
 Engineer: Jacob Kearin
 
 Written in Vivado 2019.1
