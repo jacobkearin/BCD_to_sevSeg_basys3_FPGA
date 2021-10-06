@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: Dunwoody College of Technology
+// Engineer: Jacob Kearin
 // 
 // Create Date: 09/29/2021 12:03:54 PM
 // Design Name: 
