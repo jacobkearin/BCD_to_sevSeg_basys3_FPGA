@@ -34,6 +34,6 @@ Additional Comments:
 ## instructions:
 constraints: basys_3_constraints.xdc
 <br/>
-single source use: utilize complete_basys_3_implementation.v
+single source: complete_basys_3_implementation.v
 <br/>
-utilize the remaining files for multiple source use.
+multiple source: utilize the remaining files for multiple source use as well as constraints file
