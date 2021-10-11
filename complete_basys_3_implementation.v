@@ -63,7 +63,7 @@ reg [31:0] counter1 = 0;
 
 parameter refresh_ms = 16;
 parameter num_digits = 4;
-parameter rate = refresh_ms * 100000; //add *100000
+parameter rate = refresh_ms * 100000; //add *100,000 for 100,000,000 Mhz / 1,000 ms/s
 
 always @(posedge (clk))
 begin
