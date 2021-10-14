@@ -19,7 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-//BCD to sevSeg module
+//BCD to sevSeg module - really a Binary coded hexadecimal
 module bcd_to_sevseg(BCD, segN);
 input [3:0] BCD;
 output [6:0] segN;
@@ -28,31 +28,42 @@ reg [6:0] segN;
 
 always @(BCD)
 begin
-    if (BCD == 4'b0000)
+    if (BCD == 4'b0000) //0
         segN <= 7'b1000000;
-    else if (BCD == 4'b0001)
+    else if (BCD == 4'b0001) //1
         segN <= 7'b1111001;
-    else if (BCD == 4'b0010)
+    else if (BCD == 4'b0010) //2
         segN <= 7'b0100100;
-    else if (BCD == 4'b0011)
+    else if (BCD == 4'b0011) //3
         segN <= 7'b0110000;
-    else if (BCD == 4'b0100)
+    else if (BCD == 4'b0100) //4
         segN <= 7'b0011001;
-    else if (BCD == 4'b0101)
+    else if (BCD == 4'b0101) //5
         segN <= 7'b0010010;
-    else if (BCD == 4'b0110)
+    else if (BCD == 4'b0110) //6
         segN <= 7'b0000010;
-    else if (BCD == 4'b0111)
+    else if (BCD == 4'b0111) //7
         segN <= 7'b1111000;
-    else if (BCD == 4'b1000)
+    else if (BCD == 4'b1000) //8
         segN <= 7'b0000000;
-    else if (BCD == 4'b1001)
+    else if (BCD == 4'b1001) //9
         segN <= 7'b0010000;
+    else if (BCD == 4'b1010) //A
+        segN <= 7'b0001000;
+    else if (BCD == 4'b1011) //B
+        segN <= 7'b0000011;
+    else if (BCD == 4'b1100) //C
+        segN <= 7'b1000110;
+    else if (BCD == 4'b1101) //D
+        segN <= 7'b0100001;
+    else if (BCD == 4'b1110) //E
+        segN <= 7'b0000110;
+    else if (BCD == 4'b1111) //F
+        segN <= 7'b0001100;
     else
         segN <= 7'b1111111;
     end
 endmodule
-
 //digital segment controller module
 module dig_cont(clk, an);
 input clk;
